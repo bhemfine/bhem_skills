@@ -1,5 +1,7 @@
 # bhem_skills
 
+Start with [PREFERENCES.md](PREFERENCES.md): my standing preferences for any AI working for me.
+
 Boon Eng's personal AI skills. Each folder in `skills/` is one skill: a `SKILL.md` (YAML frontmatter with `name` and `description`, then the instructions) plus any helper files.
 
 | Skill | What it's for |
