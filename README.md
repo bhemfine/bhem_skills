@@ -13,7 +13,14 @@ Boon Eng's personal AI skills. Each folder in `skills/` is one skill: a `SKILL.m
 Also used (installed from their own sources, not copied here): shadcn/ui skill (https://ui.shadcn.com), Notion skills (Notion connector).
 
 ## Using these skills
-- **Claude Code:** copy a skill folder into `~/.claude/skills/` (personal) or `.claude/skills/` in a project.
+- **Claude Code (one step, recommended):** install these skills plus Addy Osmani's [agent-skills](https://github.com/addyosmani/agent-skills) as plugins:
+  ```
+  /plugin marketplace add bhemfine/bhem_skills
+  /plugin install bhem-skills@bhem-skills
+  /plugin install agent-skills@bhem-skills
+  ```
+  Only the `skills/` folder is installed; `PREFERENCES.md` stays in this repo.
+- **Claude Code (manual):** copy a skill folder into `~/.claude/skills/` (personal) or `.claude/skills/` in a project.
 - **Claude.ai:** zip a skill folder and upload it under Settings > Capabilities > Skills.
 - **Cursor / Grok Bot:** same `SKILL.md` format; add it to the skills library.
 - **Other AIs (ChatGPT, Gemini…):** paste the `SKILL.md` text into custom instructions or project knowledge.

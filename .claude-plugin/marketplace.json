@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "bhem-skills",
+  "description": "Boon Eng's skills plus Addy Osmani's engineering skills, installable in one step.",
+  "owner": { "name": "bhemfine" },
+  "plugins": [
+    {
+      "name": "bhem-skills",
+      "source": "./skills",
+      "description": "Design skills: frontend-design, impeccable, web-design-inspiration."
+    },
+    {
+      "name": "agent-skills",
+      "source": { "source": "github", "repo": "addyosmani/agent-skills" },
+      "description": "Addy Osmani's engineering skills: spec, plan, build, test, review, ship.",
+      "homepage": "https://github.com/addyosmani/agent-skills",
+      "license": "MIT"
+    }
+  ]
+}
